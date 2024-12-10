@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; 
+}
+.incBtn, .decBtn{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  background-color: black !important;
+  color: white !important;
+  font-size: larger !important;
+  width: 100px !important;
+}
+.countHolder{
+  border: 2px solid ;
+  width: 150px;
+  padding: 10px;
+  margin: 20px;
+}
+.MuiBox-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+
+}
+.incBtn{
+  margin-top: 10px !important;
+}
+
